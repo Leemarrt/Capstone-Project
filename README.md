@@ -56,6 +56,14 @@ consumers   (1) ──► (*) consumer_preferences ◄── (1) dim_cuisines
 
 > Cross-filter: restaurants → restaurant_cuisines set to **Both** (to allow cuisine slicing).
 
+##  Limitations & Assumptions
+- **Single-country scope:** The dataset covers only Mexican restaurants, so results are not globally generalizable.  
+- **Survey-based data:** Ratings and consumer preferences are self-reported and may include bias.  
+- **City data quality:** Some records required filling missing city values with state or “Unknown,” which may affect precision.  
+- **Cuisine categorization:** Cuisines were manually grouped; overlap between groups (e.g., “Fast Food” vs “Burgers”) may influence counts.  
+- **Static snapshot:** Data represents a snapshot in time, not longitudinal changes in the market.  
+
+
 ## Key DAX Measures
 ```DAX
 Restaurants Count = DISTINCTCOUNT(restaurants[Restaurant_ID])
@@ -73,3 +81,5 @@ DIVIDE([Cuisine_Demand], CALCULATE([Cuisine_Demand], REMOVEFILTERS(dim_cuisines)
 
 Opportunity Score = [Cuisine_Demand_Share] - [Cuisine_Supply_Share].
 
+
+ 
