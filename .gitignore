@@ -1,0 +1,22 @@
+# Windows / system files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Office temp files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# Power BI autosaves
+*.pbix.autosave
+
+# VS Code / editor folders
+.vscode/
+.idea/
+
+# OS hidden files
+.DS_Store
+
+# Logs
+*.log
