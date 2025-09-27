@@ -25,7 +25,7 @@ The **Mexican & Regional cuisine group** shows the **largest unmet demand** (gap
 2. Target **student-dense cities** such as San Luis Potosí.  
 3. Optimize for **mid/low pricing** and consider **alcohol/smoking policies** per local norms.  
 
-Full details available in [EXECUTIVE_SUMMARY.md](./EXECUTIVE_SUMMARY.md).
+Full details available in [Executive_Summary.md](./Executive_Summary.md).
 ## Business Questions (Q1–Q4)
 1. **Market Overview** – Which cities have the highest restaurant presence and ratings?  
 2. **Consumer Profile** – What are the consumer demographics and cuisine preferences?  
