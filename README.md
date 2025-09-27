@@ -1,7 +1,7 @@
 # Restaurant Market Analysis & Investment Opportunities in Mexico
 
 A Power BI Capstone Project exploring demand–supply gaps, consumer preferences, and restaurant performance to guide strategic investment.
-[Dashboard Preview](./screenshots/Capstone_Dashboard_Wireframe.png)
+[Dashboard Preview](./screenshots/dashboard.png)
 
 ## Project Overview
 This project analyzes the **Mexican restaurant market** using survey data on restaurants, consumers, cuisines, and ratings.  
